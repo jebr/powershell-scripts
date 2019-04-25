@@ -37,6 +37,6 @@ Set-ExecutionPolicy Unrestricted
 
 #Aanmaken van OU's (Groepen)
 foreach($group in $ImportOU){
-    New-ADOrganizationalUnit -Name $group.OU -DisplayName $group.OU -Path $DomainPath -ProtectedFromAccidentalDeletion $false
+    New-ADOrganizationalUnit -Name $group.OU -DisplayName $group.OU -Path $DomainPath -ProtectedFromAccidentalDeletion $true
 }
 
