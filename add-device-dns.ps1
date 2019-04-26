@@ -1,9 +1,13 @@
 <#
 .KORTE BESCHRIJVING
-    Dit script
+    Dit script zal apparaten toevoegen aan de DNS (A record).
 
 .HANDLEIDING
-    1.
+    1. Vul de complete gegevens van de aparaten in de CSV
+    2. Plaats de devices.csv op dezelfde locatie als het Powershell script
+    3. Wijzig de waarden bij $DomainName en $DomainPath
+    4. Start het script als Administrator
+    5. Controleer of alle apparaten zijn toegevoegd aan de DNS
 
 .NOTITIE
     Bestandsnaam    : add-device-dns.ps1
@@ -11,6 +15,15 @@
 
 .LINK
     Github          : https://github.com/jebr/poweshell-scripts
+
+.VOORBEELD DEVICES.CSV
+    IPv4Address,Name,ZoneName
+    10.11.1.50,AP-00-01,systemen.local
+
+.UITLEG KOLOMMEN
+    IPv4Address		=	IP-adres apparaat
+	Name			=	Apparaat naam
+	ZoneName		=	Domeinnaam
 #>
 
 #Variabelen
@@ -32,6 +45,13 @@ If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 
 Set-ExecutionPolicy Unrestricted
 
+#Toevoegen apparaten
 foreach($device in $ImportDevices){
-    Add-DnsServerResourceRecordA -IPv4Address 10.50.6.112 -ZoneName Systemen
+
+    $IPv4Address = $device.IPv4Address
+    $Name = $device.Name
+    $ZoneName = $device.ZoneName
+
+    #Syntax apparaten toevoegan aan DNS
+    Add-DnsServerResourceRecordA -IPv4Address $IPv4Address -Name $Name -ZoneName $ZoneName
 }

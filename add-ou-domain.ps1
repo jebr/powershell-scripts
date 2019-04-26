@@ -5,8 +5,9 @@
 .HANDLEIDING
     1. Vul de gewenste OU's in de ou.csv
     2. Plaats de ou.csv op dezelfde locatie als het Powershell script
-    3. Start het script als Administrator
-    4. Controleer of alle OU's aangemaakt zijn
+    3. Wijzig de waarden bij $DomainName en $DomainPath
+    4. Start het script als Administrator
+    5. Controleer of alle OU's aangemaakt zijn
 
 .NOTITIE
     Bestandsnaam    : add-ou-domain.ps1
@@ -37,6 +38,11 @@ Set-ExecutionPolicy Unrestricted
 
 #Aanmaken van OU's (Groepen)
 foreach($group in $ImportOU){
-    New-ADOrganizationalUnit -Name $group.OU -DisplayName $group.OU -Path $DomainPath -ProtectedFromAccidentalDeletion $true
+	
+	$Name = $group.OU
+	$DisplayName = $group.OU
+	
+	#Syntax OU toevoegen aan domein
+    New-ADOrganizationalUnit -Name $Name -DisplayName $DisplayName -Path $DomainPath -ProtectedFromAccidentalDeletion $true
 }
 
