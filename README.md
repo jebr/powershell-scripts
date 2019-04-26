@@ -4,7 +4,7 @@
 A bunch of Powershell Scripts
 
 ## DOWNLOAD
-[DOWNLOAD PROGRAMMA]
+[DOWNLOAD SCRIPTS]
 
 **Note:** Het gebruik van deze scripts is voor eigen risico.
 
