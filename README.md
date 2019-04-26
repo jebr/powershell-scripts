@@ -23,4 +23,4 @@ Volg de instructies in de handleidingen. Deze zijn terug te vinden in de scripts
 
 
 ## TODO
-[TODO versie 1.4.0.1](TODO.md)
+[TODO](TODO.md)
