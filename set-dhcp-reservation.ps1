@@ -24,7 +24,7 @@
 
 #Variabelen
 $Location = Get-Location #Locatie bepalen van het script
-$Devices = "$Location\devices.csv" #Gerbuikers csv bestand
+$Devices = "$Location\dhcp-devices.csv" #Gerbuikers csv bestand
 $DomainName = "systemen.local" # Volledige domain naam
 $DomainPath = "dc=systemen, dc=local" # SUB- en TOP Domein
 
