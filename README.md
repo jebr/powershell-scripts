@@ -10,7 +10,7 @@
 ## Hoe te gebruiken
 **Deze scripts moeten uitgevoerd worden als Administrator.**
 
-Volg de instructies in de handleidingen. Deze zijn terug te vinden in de scripts
+Volg de instructies in de scripts.
 
 ## Scripts
 1. ADD-OU-DOMAIN.ps1
