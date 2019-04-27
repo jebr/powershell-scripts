@@ -1,7 +1,6 @@
 ![Logo](assets/powershell.jpg?raw=true "Logo SSP")
-# Powershell Scripts
 
-A bunch of Powershell Scripts
+> A bunch of Powershell Scripts
 
 ## DOWNLOAD
 [DOWNLOAD SCRIPTS]
@@ -11,16 +10,15 @@ A bunch of Powershell Scripts
 ## Hoe te gebruiken
 **Deze scripts moeten uitgevoerd worden als Administrator.**
 
-Volg de instructies in de handleidingen. Deze zijn terug te vinden in de scripts
+Volg de instructies in de scripts.
 
 ## Scripts
-1. ADD-OU-DOMAIN.ps1
+- **add-ou-doamin.ps1**
     * Gebruiksgroepen toevoegen aan het domein
-2. AD-USERS-DOMAIN.ps1
-    * Gebruikers toevoegen aan het domein en deze plaatsen eerder aangemaakte groepen
-3. AD-DEVICE-DOMAIN.ps1
+- **add-users-domain.ps1**
+    * Gebruikers toevoegen aan het domein en deze plaatsen in eerder aangemaakte groepen
+- **add-device-domain.ps1**
 	* Apparaten toevoegen aan de DNS. De apparaten worden toegevoegd als A-record.
-
 
 ## TODO
 [TODO](TODO.md)
