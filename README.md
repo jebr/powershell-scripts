@@ -1,5 +1,4 @@
 ![Logo](assets/powershell.jpg?raw=true "Logo SSP")
-# Powershell Scripts
 
 A bunch of Powershell Scripts
 
