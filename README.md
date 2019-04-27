@@ -13,11 +13,11 @@
 Volg de instructies in de scripts.
 
 ## Scripts
-1. **add-ou-doamin.ps1**
+*. **add-ou-doamin.ps1**
     * Gebruiksgroepen toevoegen aan het domein
-2. **add-users-domain.ps1**
+*. **add-users-domain.ps1**
     * Gebruikers toevoegen aan het domein en deze plaatsen in eerder aangemaakte groepen
-3. **add-device-domain.ps1**
+*. **add-device-domain.ps1**
 	* Apparaten toevoegen aan de DNS. De apparaten worden toegevoegd als A-record.
 
 ## TODO
