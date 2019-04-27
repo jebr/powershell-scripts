@@ -1,6 +1,6 @@
 ![Logo](assets/powershell.jpg?raw=true "Logo SSP")
 
-**A bunch of Powershell Scripts**
+> A bunch of Powershell Scripts
 
 ## DOWNLOAD
 [DOWNLOAD SCRIPTS]
