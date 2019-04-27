@@ -3,7 +3,7 @@
 > A bunch of Powershell Scripts
 
 ## DOWNLOAD
-[DOWNLOAD SCRIPTS]
+[DOWNLOAD SCRIPTS](https://github.com/jebr/powershell-scripts/releases)
 
 **Note:** Het gebruik van deze scripts is voor eigen risico.
 
