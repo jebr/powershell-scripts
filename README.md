@@ -1,4 +1,4 @@
-![Logo](assets/powershell.jpg?raw=true "Logo SSP")
+![Logo](assets/powershell.jpg?raw=true "Powershell")
 
 > A bunch of Powershell Scripts
 
@@ -21,4 +21,4 @@ Volg de instructies in de scripts.
 	* Apparaten toevoegen aan de DNS. De apparaten worden toegevoegd als A-record.
 
 ## TODO
-[TODO](TODO.md)
+**[TODO](TODO.md)**
